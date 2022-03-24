@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="newStyle.css" />
+    <title>Interactive rating component</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="card-container">
+          <div class="card-header">
+            <img src="./images/icon-star.svg" alt="icon Star" />
+          </div>
+          <div class="card-body">
+            <h2>How did we do?</h2>
+            <p>
+              Please let us know how we did with your support request. All
+              feedback is appreciated to help us improve our offering!
+            </p>
+          </div>
+          <div class="btn-container">
+            <button id="1" type="button">1</button>
+            <button id="2" type="button">2</button>
+            <button id="3" type="button">3</button>
+            <button id="4" type="button">4</button>
+            <button id="5" type="button">5</button>
+          </div>
+          <p class="hidden">Please select an option</p>
+          <button class="submit-btn">Submit</button>
+        </div>
+      </div>
+
+      <div class="card card-2 hide">
+        <div class="card-container">
+          <img src="./images/illustration-thank-you.svg" alt="icon Star" />
+
+          <div class="card-body body2">
+            <p class="you-selected">you selected <span>0</span> out of 5</p>
+            <h2>Thank you!</h2>
+            <p>
+              We appreciate you taking the time to give a rating. If you ever
+              need more support, don't hesitate to get in touch!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
